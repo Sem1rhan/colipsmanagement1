@@ -64,7 +64,7 @@ exports.run = async (client, message) => {
     )
     .addField(
       `__Bilgilendirme__`,
-      `📙 \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 📙 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 📙 \`${prefix}siteler\` | QualitySel  Sitelerini Görürsün`
+      `🔱  \ | Colips Bot\n 🔱 \ | Founder Semirhan 💞  `
     );
   return message.channel.send(embedeğlence);
 };
