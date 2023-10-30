@@ -4,13 +4,10 @@ exports.run = async (client, message) => {
   let prefix = process.env.prefix;
 
   const embedgenel = new Discord.MessageEmbed()
-    .setAuthor(`Windes | Çekiliş `)
+    .setAuthor(`Colips | Çekiliş `)
     .setTitle(``)
     .setColor("#00ff00")
     .setThumbnail(client.user.avatarURL())
-    .setDescription(
-      `🎁 Windes Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
-    )
     .addField(
       `__Başlat__`,
       `🎉  \`${prefix}başlat\` Sunucudan Bir Çekiliş Başlatabilirsin.`,
@@ -29,7 +26,7 @@ exports.run = async (client, message) => {
    
     .addField(
       `__Bilgilendirme__`,
-      `🎊 \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 🎊 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`
+      `🔱  \ | Colips Bot\n 🔱 \ | Founder Semirhan 💞  `
     );
   return message.channel.send(embedgenel);
 };
