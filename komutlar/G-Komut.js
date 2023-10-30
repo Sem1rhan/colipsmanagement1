@@ -3,9 +3,9 @@ exports.run = async (client, message, args, level) => {
   const toplamkomut = new Discord.MessageEmbed()
 
     .setTitle(``)
-    .setAuthor(`Windes  | Discord Bot Toplam Komut Sayısı`)
+    .setAuthor(`Colips  | Discord Bot Toplam Komut Sayısı`)
     .setDescription(
-      `✅ **Windes  Toplam**  \`` +
+      `✅ **Colips  Toplam**  \`` +
         client.commands.size +
         `\` **Komut Vardır!**`
     )

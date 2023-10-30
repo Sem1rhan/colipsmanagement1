@@ -16,7 +16,7 @@ exports.run = async (client, message, args) => {
       .get(kanalbelirle)
       .send(
         new Discord.MessageEmbed()
-          .setTitle(`**Windes / Destek Sistemi**`)
+          .setTitle(`**Colips / Destek Sistemi**`)
           .setFooter(`Windes`, client.user.avatarURL())
           .setColor(`#ee7621`)
           .setDescription(
