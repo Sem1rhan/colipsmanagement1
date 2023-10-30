@@ -22,7 +22,9 @@ let prefix = ayarlar.prefix;
     )
     .addField(
       "__**Yetkili Bilgi**__",
-      "👑 **Bot Sahipleri**  <@580421826061271040> \n\n"
+      "👑 **Bot Sahipleri**  <@580421826061271040> \n\n",
+
+      "💎 **Developer**  <@580421826061271040> \n\n" 
     )
     .addField(
       "__**Sürümler**__",
