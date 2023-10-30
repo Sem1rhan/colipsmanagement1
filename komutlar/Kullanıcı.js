@@ -41,9 +41,9 @@ exports.run = async (client, message) => {
       `🔎 \`${prefix}yetkilerim\` Discord Bot Size Yetkilerinizi Gösterir.`,
       true
     )
-  .addField(
+    .addField(
       `__Bilgilendirme__`,
-      `✂️  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n ✂️ \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`
+      `🔱  \ | Colips Bot\n 🔱 \ |Founder <@580421826061271040> 💞  `
     );
   return message.channel.send(embedkullanıcı);
 };

@@ -47,7 +47,12 @@ exports.run = async (client, message) => {
       `__Say__`,
       ` 🚩  \`${prefix}say\` Toplam Kanal Seviyeni Gösteren Gelişmiş Say Komutu.`,
       true
+    )
+      .addField(
+      `__Bilgilendirme__`,
+      `🔱  \ | Colips Bot\n 🔱 \ |Founder <@580421826061271040> 💞  `
     );
+  
 
   return message.channel.send(embedgenel);
 };

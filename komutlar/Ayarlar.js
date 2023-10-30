@@ -9,8 +9,8 @@ exports.run = async (client, message) => {
     .setTitle(``)
     .setColor("#00ff00")
     .setImage('https://cdn.discordapp.com/attachments/1108819464524415097/1109034877774483466/standard_7.gif')
-    .setDescription(
-      `🔱  \ | Colips Bot\n 🔱 \ | Founder Semirhan 💞  `
+    .addField(
+      `🔱  \ | Colips Bot\n 🔱 \ | <@580421826061271040> 💞  `
     )
     .addField(
       `__ModLog__`,
@@ -79,7 +79,7 @@ exports.run = async (client, message) => {
     )
     .addField(
       `__Bilgilendirme__`,
-      `🔱  \ | Colips Bot\n 🔱 \ | Founder Semirhan 💞  `
+      `🔱  \ | Colips Bot\n 🔱 \ |Founder <@580421826061271040> 💞  `
     );
   return message.channel.send(embedayarlar);
 };
