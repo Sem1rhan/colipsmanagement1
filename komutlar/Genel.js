@@ -5,7 +5,7 @@ let prefix = ayarlar.prefix;
 exports.run = async (client, message) => {
 
   const embedgenel = new Discord.MessageEmbed()
-    .setAuthor(`Windes  | Genel`)
+    .setAuthor(`Colips  | Genel`)
     .setTitle(``)
     .setColor("#00ff00")
     .setThumbnail(client.user.avatarURL())
