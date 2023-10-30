@@ -87,10 +87,10 @@ exports.run = (client, msg, args) => {
   msg.channel.send(
     new Discord.MessageEmbed()
       .setColor("#00ff00")
-      .setAuthor(`Parsher  | Yetkilerim Tablo`)
-       .addField(
+      .setAuthor(`Colips  | Yetkilerim Tablo`)
+      .addField(
       `__Bilgilendirme__`,
-      `🌐  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 🌐 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`
+      `🔱  \ | Colips Bot\n 🔱 \ |Founder <@580421826061271040> 💞  `
     )
       .setThumbnail(
       "https://cdn.discordapp.com/attachments/1108819464524415097/1109034877774483466/standard_7.gif"
