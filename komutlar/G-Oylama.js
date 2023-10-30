@@ -32,7 +32,7 @@ module.exports.run = async (client, message, args) => {
     .setColor("RANDOM")
     .addField("__Oylama Var!__", `**${yazi}**`)
     .setThumbnail(
-      `https://i.pinimg.com/originals/5a/28/de/5a28def9428afff43e86e21ffe382dc9.jpg`
+      `https://pbs.twimg.com/media/Fzx0EIyWIAEFkYD.jpg`
     )
     .setFooter(`${message.author.username} oylama yaptı.`)
     .setAuthor(`${client.user.username} Oylama`);
