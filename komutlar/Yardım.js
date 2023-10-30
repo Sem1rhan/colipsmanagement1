@@ -60,7 +60,7 @@ exports.run = async (client, message) => {
     )
     .addField(
       `__Bilgilendirme__`,
-      `🔱  \ | Colips Bot\n 🔱 \ | Fo.`
+      `🔱  \ | Colips Bot\n 🔱 \ | Founder Semirhan 💞  `
     );
   return message.channel.send(embed);
 };
