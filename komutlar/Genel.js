@@ -10,9 +10,7 @@ exports.run = async (client, message) => {
     .setColor("#00ff00")
     .setThumbnail(client.user.avatarURL())
   .setImage('https://cdn.discordapp.com/attachments/1108819464524415097/1109034877774483466/standard_7.gif')
-    .setDescription(
-      `🌀 Windes  Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
-    )
+
     .addField(
       `__Oylama__`,
       ` 🚩  \`${prefix}oylama\` Sunucudan Bir Oylama Başlatırsın.`,
@@ -33,11 +31,7 @@ exports.run = async (client, message) => {
       ` 🚩  \`${prefix}botbilgi\` Botun Sunucu Ve Sürüm , Sahip İstatistikleri Bakarsın.`,
       true
     )
-    .addField(
-      `__Davet__`,
-      ` 🚩   \`${prefix}davet\` ShadowRise Network Davet Menüsünü Görürsün.`,
-      true
-    )
+
     .addField(
       `__Ping__`,
       ` 🚩  \`${prefix}ping\` Discord Botun Mesaj Geçikmesi ve Bot Geçikmesini Gösterir.`,
@@ -48,20 +42,13 @@ exports.run = async (client, message) => {
       ` 🚩  \`${prefix}afk\` Kullanıcı Bir Sebeple AFK Moduna Girer.`,
       true
     )
-   .addField(
-      `__V11 To V12__`,
-      ` 🚩 \`${prefix}çevir\` Disord Botlara Koyulan V11 Kodu V12 Çevirebilirsiniz.`,
-      true
-    )
+
      .addField(
       `__Say__`,
       ` 🚩  \`${prefix}say\` Toplam Kanal Seviyeni Gösteren Gelişmiş Say Komutu.`,
       true
-    )
-    .addField(
-      `__Bilgilendirme__`,
-      ` 🚩  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n ⚠️ \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz.`
     );
+
   return message.channel.send(embedgenel);
 };
 

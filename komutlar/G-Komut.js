@@ -11,7 +11,7 @@ exports.run = async (client, message, args, level) => {
     )
     .setColor("#00ff00")
     .setTimestamp()
-    .setFooter(`Windes`, client.user.avatarURL());
+    .setFooter(`Colips`, client.user.avatarURL());
 
   return message.channel.send(toplamkomut);
 };
