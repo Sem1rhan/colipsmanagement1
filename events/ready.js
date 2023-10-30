@@ -16,9 +16,12 @@ module.exports = client => {
       client.user.username
     } ismi ile giriş yapıldı!`
   );
-  client.user.setStatus("idle");
+  client.user.setStatus("dnd");
+   client.on('ready', ()=>{
+client.channels.get('1149406303022759988').join()
+})
 
-  client.user.setActivity(`.yardım | Windes`, { type: "WATCHING" });
+  client.user.setActivity(`.yardım | Colips`, { type: "WATCHING" });
 
   console.log(
     ` [${moment().format("YYYY-MM-DD HH:mm:ss")}] Oyun ismi ayarlandı!`

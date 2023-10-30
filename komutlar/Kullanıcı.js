@@ -6,14 +6,11 @@ exports.run = async (client, message) => {
 
 
   const embedkullanıcı = new Discord.MessageEmbed()
-    .setAuthor(`Windes | Kullanıcı`)
+    .setAuthor(`Colips | Kullanıcı`)
     .setTitle(``)
     .setColor("#00ff00")
     .setThumbnail(client.user.avatarURL())
     .setImage('https://cdn.discordapp.com/attachments/1108819464524415097/1109034877774483466/standard_7.gif')
-    .setDescription(
-      `🔅 Windes Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
-    )
     .addField(
       `__Rozetler__`,
       `🔎\`${prefix}rozetler\` Discord Bot Discord Aldıgınız Rozetleri Komutla Görürsün.`,
