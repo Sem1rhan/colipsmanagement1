@@ -6,14 +6,12 @@ exports.run = async (client, message) => {
 
 
   const embedeğlence = new Discord.MessageEmbed()
-    .setAuthor(`©Windes  | Eğlence`)
+      .setAuthor(`Colips | Eğlence`)
     .setTitle(``)
     .setColor(`BLACK`)
     .setImage('https://cdn.discordapp.com/attachments/1108819464524415097/1109034877774483466/standard_7.gif')
    .setThumbnail(client.user.avatarURL())
-    .setDescription(
-      `🔔 Windes  Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
-    )
+
     .addField(
       `__Steam Oyun__`,
       `📯 \`${prefix}steamoyun [Oyun]\` Yazdıgınız Oyunun Steamdaki Bilgileri Verir.`,
