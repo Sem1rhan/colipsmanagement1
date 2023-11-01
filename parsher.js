@@ -1233,7 +1233,7 @@ client.on("guildMemberAdd", member => {
 
   let kontrol;
   if (süre < 1296000000)
-    kontrol = "`Bu hesap şüpheli!` <:alarm:823928423474397205>";
+    kontrol = "`Bu hesap şüpheli!` <:uyarı>";
   if (süre > 1296000000)
     kontrol = "`Bu hesap güvenli!` <:okey:822549962532847676>";
 
@@ -1243,11 +1243,11 @@ client.on("guildMemberAdd", member => {
     .setDescription(
       "<@" +
         member.id +
-        "> Bilgileri <:sag:822547800481988628> \n\n  __Hesap Oluşturulma Tarihi__ <:sag:822547800481988628> \n\n**[" +
+        "> Bilgileri <:sag:> \n\n  __Hesap Oluşturulma Tarihi__ <:sag:822547800481988628> \n\n**[" +
         created +
         "]** (`" +
         günay +
-        "`) \n\n __Hesap durumu__ <:sag:822547800481988628> \n\n**" +
+        "`) \n\n __Hesap durumu__ <:sag:> \n\n**" +
         kontrol +
         "**"
     );
@@ -1374,7 +1374,7 @@ client.on('ready', () => {
       console.log (`Kullanıcılar       : ${client.users.cache.size}`);
       console.log (`Prefix             : ${ayarlar.prefix}`);
       console.log (`Durum              : Bot Çevrimiçi!`);
-      console.log (`Parsher Youtube    : Gelişmiş bot alt yapı!`);
+      console.log (`Colips Dev Alt yapı!`);
       console.log ('_________________________________________');
     
     });
