@@ -1233,9 +1233,9 @@ client.on("guildMemberAdd", member => {
 
   let kontrol;
   if (süre < 1296000000)
-    kontrol = "`Bu hesap şüpheli!` <:uyarı>";
+    kontrol = "`Bu hesap şüpheli!` <:uyar~3:1169347381557473300>";
   if (süre > 1296000000)
-    kontrol = "`Bu hesap güvenli!` <:okey:822549962532847676>";
+    kontrol = "`Bu hesap güvenli!` <:okey2:1169347146634510447>";
 
   let parsher = new Discord.MessageEmbed()
     .setColor("#00ff00")
@@ -1243,11 +1243,11 @@ client.on("guildMemberAdd", member => {
     .setDescription(
       "<@" +
         member.id +
-        "> Bilgileri <:sag:> \n\n  __Hesap Oluşturulma Tarihi__ <:sag:822547800481988628> \n\n**[" +
+        "> Bilgileri <:sag:1169347261189325001> \n\n  __Hesap Oluşturulma Tarihi__ <:sag:1169347261189325001> \n\n**[" +
         created +
         "]** (`" +
         günay +
-        "`) \n\n __Hesap durumu__ <:sag:> \n\n**" +
+        "`) \n\n __Hesap durumu__ <:sag:1169347261189325001> \n\n**" +
         kontrol +
         "**"
     );
@@ -1257,22 +1257,6 @@ client.on("guildMemberAdd", member => {
 //Güvenlik Son
 
 //DM HG Baş
-
-client.on("guildMemberAdd", member => {
-  const hosgeldin = new Discord.MessageEmbed()
-    .setThumbnail(
-      "https://media.discordapp.net/attachments/1108819464524415097/1109034877774483466/standard_7.gif"
-    )
-     .setAuthor(`Merhaba Sende Aramıza Hoşgeldin`)
-    .setDescription("Seni aramız da görmekten onur ve şeref duyuyoruz, Parsher Code.")
-   .setColor("#00ff00")
-    .addField("**Sunucu Adresimiz**", "[Tıkla ](https://discord.gg/vqV5TRaMCa)")
-    .addField(
-      "**YouTube kanalımız**",
-      "[Tıkla ](https://www.youtube.com/channel/UCKpRtKCWoZMNeiIRviOtd1w)"
-    )
-  member.send(hosgeldin);
-});
 
 //DM HG Son
 const { GiveawaysManager } = require('discord-giveaways');
