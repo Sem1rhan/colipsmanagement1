@@ -1233,9 +1233,9 @@ client.on("guildMemberAdd", member => {
 
   let kontrol;
   if (süre < 1296000000)
-    kontrol = "`Bu hesap şüpheli!` <:uyar~3:1169347381557473300>";
+    kontrol = "`Bu hesap şüpheli!` <a::uyar~3:1169347381557473300>";
   if (süre > 1296000000)
-    kontrol = "`Bu hesap güvenli!` <:okey2:1169347146634510447>";
+    kontrol = "`Bu hesap güvenli!` <a:sag:1169347261189325001>";
 
   let parsher = new Discord.MessageEmbed()
     .setColor("#00ff00")
@@ -1243,11 +1243,11 @@ client.on("guildMemberAdd", member => {
     .setDescription(
       "<@" +
         member.id +
-        "> Bilgileri <:sag:1169347261189325001> \n\n  __Hesap Oluşturulma Tarihi__ <:sag:1169347261189325001> \n\n**[" +
+        "> Bilgileri <a:okey2:1169350687956676660> \n\n  __Hesap Oluşturulma Tarihi__ <a:okey2:1169350687956676660> \n\n**[" +
         created +
         "]** (`" +
         günay +
-        "`) \n\n __Hesap durumu__ <:sag:1169347261189325001> \n\n**" +
+        "`) \n\n __Hesap durumu__ <a:sag:1169347261189325001> \n\n**" +
         kontrol +
         "**"
     );
@@ -1358,7 +1358,7 @@ client.on('ready', () => {
       console.log (`Kullanıcılar       : ${client.users.cache.size}`);
       console.log (`Prefix             : ${ayarlar.prefix}`);
       console.log (`Durum              : Bot Çevrimiçi!`);
-      console.log (`Colips Dev Alt yapı!`);
+      console.log (`Colips Dev Saygılar!`);
       console.log ('_________________________________________');
     
     });
