@@ -1233,9 +1233,9 @@ client.on("guildMemberAdd", member => {
 
   let kontrol;
   if (süre < 1296000000)
-    kontrol = "`Bu hesap şüpheli!` <a::uyar~3:1169347381557473300>";
+    kontrol = "`Bu hesap şüpheli!` <a:uyar:1169345339002724473>";
   if (süre > 1296000000)
-    kontrol = "`Bu hesap güvenli!` <a:sag:1169347261189325001>";
+    kontrol = "`Bu hesap güvenli!` <:sag:1169018819524690070>";
 
   let parsher = new Discord.MessageEmbed()
     .setColor("#00ff00")
@@ -1243,11 +1243,11 @@ client.on("guildMemberAdd", member => {
     .setDescription(
       "<@" +
         member.id +
-        "> Bilgileri <a:okey2:1169350687956676660> \n\n  __Hesap Oluşturulma Tarihi__ <a:okey2:1169350687956676660> \n\n**[" +
+        "> Bilgileri <a:okey2:1169016423658565805> \n\n  __Hesap Oluşturulma Tarihi__ <a:okey2:1169016423658565805> \n\n**[" +
         created +
         "]** (`" +
         günay +
-        "`) \n\n __Hesap durumu__ <a:sag:1169347261189325001> \n\n**" +
+        "`) \n\n __Hesap durumu__ <:sag:1169018819524690070> \n\n**" +
         kontrol +
         "**"
     );
