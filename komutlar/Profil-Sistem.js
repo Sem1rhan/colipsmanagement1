@@ -9,7 +9,7 @@ exports.run = async (bot, msg, args) => {
     .setColor("#00ff00")
 .setImage('https://cdn.discordapp.com/attachments/1108819464524415097/1109034877774483466/standard_7.gif')
     .setDescription(
-      `⌚️ Windes Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
+      `Colips | Profil Sistemi`
     )
     .addField(
       `**__Profilim__**`,
@@ -41,9 +41,9 @@ exports.run = async (bot, msg, args) => {
       ` \`${prefix}bayrak-ayarla\` \n Özel Profilinize Bayrak Ayarlarsınız.`,
       true
     )
-    .addField(
+      .addField(
       `__Bilgilendirme__`,
-      `💎  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 💎 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünü.`
+      `🔱  \ | Colips Bot\n 🔱 \ |Founder <@580421826061271040> 💞  `
     );
   msg.channel.send(seviye);
 };
